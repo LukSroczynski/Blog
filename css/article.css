@@ -1,0 +1,15 @@
+.lead {
+	
+	margin-left: 30px;
+	margin-top: 40px;
+}
+
+.comment-num {
+	font-size: 16px;
+	color: #cbc;
+}
+
+#message {
+	height: 130px;
+}
+

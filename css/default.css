@@ -1,0 +1,162 @@
+
+body {
+	background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 2%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 38%, rgba(0,0,0,0.65) 100%);
+	background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 2%,rgba(0,0,0,0) 10%,rgba(0,0,0,0) 38%,rgba(0,0,0,0.65) 100%);
+	background: linear-gradient(135deg,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 2%,rgba(0,0,0,0) 10%,rgba(0,0,0,0) 38%,rgba(0,0,0,0.65) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 );
+	height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	margin-bottom: 30px;
+}
+.box {
+	border: 1px red dotted;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+.navbar-inverse {
+	border-radius: 0;
+}
+
+.row {
+	border-radius:10px;
+	margin-top: 10px;
+}
+
+.marg {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.background-for-discription-inside {
+	background: #45484d;
+	background: -moz-linear-gradient(-45deg,  #45484d 0%, #000000 100%);
+	background: -webkit-linear-gradient(-45deg,  #45484d 0%,#000000 100%);
+	background: linear-gradient(135deg,  #45484d 0%,#000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+	
+	border-radius: 50px;
+	opacity: 0.75;
+	max-width: 100%;
+}
+
+.take-down-footer {
+	padding-bottom:100%;
+}
+
+.marg-description {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 100px;
+	width: 340px; /* Width of new image */
+	height: 280px; /* Height of new image */
+}
+.white-text {
+	color: WHITE;
+	padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.my-hr {
+    border-color: #808080;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.size-of-img {
+	width:333px;
+	height:190px;
+}
+
+.container .col-md-8 ul li {
+	float: left;
+	margin-right: 50px;
+}
+
+.container .col-md-8 ul {
+	list-style: none;
+	margin-left: 20%;
+}
+
+hr.divider:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+hr.style5 {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.text-effect {
+    display: block;
+    text-align: center;
+    font-size:80px;
+    font-weight:bold;
+    font-family: serif;
+    letter-spacing: .15em;
+    color:#111;
+    text-shadow:  0.45rem -0.45rem rgba(11, 11, 11, 0.2), -0.45rem -0.45rem rgba(11, 11, 11, 0.2);
+}
+
+.btnDownload {
+  background: #212121;
+  background-image: -webkit-linear-gradient(top, #212121, #aca6ff);
+  background-image: -moz-linear-gradient(top, #212121, #aca6ff);
+  background-image: -ms-linear-gradient(top, #212121, #aca6ff);
+  background-image: -o-linear-gradient(top, #212121, #aca6ff);
+  background-image: linear-gradient(to bottom, #212121, #aca6ff);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 20px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 8px 15px 8px 15px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+  margin-top: -12px;
+  outline: none;
+}
+
+.btnDownload:hover {
+  background: #212121;
+  background-image: -webkit-linear-gradient(top, #212121, #5e5a8f);
+  background-image: -moz-linear-gradient(top, #212121, #5e5a8f);
+  background-image: -ms-linear-gradient(top, #212121, #5e5a8f);
+  background-image: -o-linear-gradient(top, #212121, #5e5a8f);
+  background-image: linear-gradient(to bottom, #212121, #5e5a8f);
+  text-decoration: none;
+}
+
+.projectSpace {
+  padding-bottom: 15px;
+}
+
