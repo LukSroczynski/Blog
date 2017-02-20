@@ -1,2 +1,2 @@
 # Blog
-My personal blog - template
+My blog - template
